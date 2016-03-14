@@ -1,0 +1,60 @@
+html {
+  background-color: #000000;
+}
+
+#logo {
+  padding-top: 2%;
+  text-align: center;
+}
+
+#car {
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+p {
+  color: #ffffff;
+  text-align: left;
+  font-size: 20px;
+}
+
+#ref {
+  font-size: 30px;
+}
+
+#ref_code {
+font-size: 60px;
+
+}
+#invite h2{
+  text-align: center;
+  padding-top: 40px;
+}
+
+#blurbs {
+  text-align: center;
+  margin-left: 15%;
+}
+
+#container-one {
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+#container-two {
+  width: 20%;
+  margin-top: -160px;
+  margin-left: 45%;
+}
