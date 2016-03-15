@@ -4,19 +4,36 @@
 <title>Uber Promo Page</title>
 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="responsive.css" media="screen and (max-width: 900px)">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+
+
+$("#link").click(function(){
+  var holdtext = $("#clipboard").innerText;
+  Copied = holdtext.createTextRange();
+  Copied.execCommand("Copy");
+});
+
+
+</script>
+
 </head>
   <body>
     <div id="logo">
-      <img src="uber-logo.png" width="400" height="200">
+      <img src="images/uber-logo.png" width="300" height="150">
     </div>
   </br>
-    <h1><strong>Do You Want To Set Your Own Hours And Earn Money While Driving?</strong></h1>
+    <div id="page-heading"><h1>Do You Want To Set Your Own Hours And Earn Money While Driving?</h1><h2>Become an Uber Driver!</h2></div>
     <div id="invite">
-      <h2><div id="ref">Use my referral code when you sign up<strong></div><div id="ref_code">[ ux7hg8a5ue ]</div></strong></h2>
+      <h2><div id="ref">Use my referral code when you sign up:<strong></div><div id="ref_code"><SPAN ID="copytext">
+        <a href="https://get.uber.com/p/drive/?_ga=1.161268859.714104547.1457974361" target="_blank" style="text-decoration:none">[ ux7hg8a5ue ]</a>
+        <button onclick="ux7hg8a5ue">Copy The Code</button></span></div></strong></h2>
     </div>
+    <p>Click <a href="https://get.uber.com/p/drive/?_ga=1.161268859.714104547.1457974361" target="_blank" style="text-decoration:none"><font color="grey">here</font></a> to get started!</p>
     <div id="car">
-      <img src="car.jpg">
+      <img src="images/car.jpg">
     </div>
     <div id="blurbs">
       <div id="container-one">

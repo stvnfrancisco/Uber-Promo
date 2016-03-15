@@ -7,6 +7,17 @@ html {
   text-align: center;
 }
 
+#page-heading {
+  font-size: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+#page-heading h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
 #car {
   text-align: center;
 }
@@ -14,23 +25,27 @@ html {
 h1 {
   color: #ffffff;
   text-align: center;
-  font-family: sans-serif;
+  font-weight: lighter;
+  font-family: Helvetica;
 }
 
 h2 {
   color: #ffffff;
   text-align: justify;
-  font-family: sans-serif;
+  font-family: Helvetica;
 }
 
 p {
   color: #ffffff;
-  text-align: left;
-  font-size: 20px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 30px;
 }
 
 #ref {
   font-size: 30px;
+  font-weight: lighter;
+  height: 60px;
 }
 
 #ref_code {
@@ -39,7 +54,7 @@ font-size: 60px;
 }
 #invite h2{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 5px;
 }
 
 #blurbs {
@@ -48,13 +63,27 @@ font-size: 60px;
 }
 
 #container-one {
-  width: 20%;
+  width: 30%;
   margin-top: 5%;
   margin-left: 15%;
 }
 
+#container-one p {
+  text-align: left;
+  font-size: 20px;
+}
+
 #container-two {
-  width: 20%;
+  width: 30%;
   margin-top: -160px;
-  margin-left: 45%;
+  margin-left: 50%;
+}
+
+#container-two p {
+    text-align: left;
+    font-size: 20px;
+}
+
+a {
+  color: #ffffff;
 }
