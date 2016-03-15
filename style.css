@@ -35,11 +35,11 @@ h2 {
   font-family: Helvetica;
 }
 
-p {
-  color: #ffffff;
+h3 {
+  font-family: helvetica;
   text-align: center;
-  font-family: Helvetica;
-  font-size: 30px;
+  color: #ffffff;
+  font-size: 25px;
 }
 
 #ref {
@@ -52,6 +52,7 @@ p {
 font-size: 60px;
 
 }
+
 #invite h2{
   text-align: center;
   padding-top: 5px;
@@ -88,9 +89,29 @@ a {
   color: #ffffff;
 }
 
-button {
-  color: #000000;
-  font-size: 30px;
-  font-weight: bolder;
-  border-radius: 20px 20px 20px 20px;
+.container-requirements {
+  width: 50%;
+  margin-left: 20%;
+  text-align: justify;
+  font-weight: lighter;
+  padding: 30px 40px 40px 40px;
 }
+
+ul {
+  color: #ffffff;
+  font-size: 20px;
+}
+   ul li p {
+     color: #ffffff;
+     font-size: 20px;
+  }
+
+  #click-here {
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica;
+  }
+
+  .footer {
+    padding-bottom: 60px;
+  }
