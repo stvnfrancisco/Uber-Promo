@@ -42,6 +42,13 @@ h3 {
   font-size: 25px;
 }
 
+h4 {
+  font-family: Helvetica;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 20px;
+}
+
 #ref {
   font-size: 30px;
   font-weight: lighter;
@@ -86,7 +93,10 @@ font-size: 60px;
 }
 
 a {
-  color: #ffffff;
+  color: #2A5DB0;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Helvetica;
 }
 
 .container-requirements {
@@ -114,4 +124,5 @@ ul {
 
   .footer {
     padding-bottom: 60px;
+    padding-top: 30px;
   }
